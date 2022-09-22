@@ -8,6 +8,7 @@ body {
     background-image: linear-gradient(to right, #db95e4, #8d77a7c5);
 }
 
+
 main {
     background-color: #e5bee5;
     border-radius: 10px;
@@ -15,7 +16,7 @@ main {
     width: 600px;
     padding: 10px;
     margin: auto;
-}
+} 
 
 h1 {
     color: #520b64;
@@ -38,6 +39,7 @@ li {
 }
 
 ul li a {
+    /* Para criação de estilo do menu. */
     display: flex;
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -97,7 +99,8 @@ button {
     margin-left: .5em;
 }
 
-a#menu:hover {
+a#menu:hover { 
+    /* Para alterar a cor do elemento ao passar o cursor do mouse sobre ele. */
     background-color: rgb(187, 198, 241);
     padding: 4px;
     width: 175px;
