@@ -6,6 +6,7 @@
 
 body {
     background-image: linear-gradient(to right, #db95e4, #8d77a7c5);
+    background-attachment: fixed;
 }
 
 
